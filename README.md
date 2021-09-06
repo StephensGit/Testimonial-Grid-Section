@@ -23,7 +23,9 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+- This is a screenshot of the final result for desktop:
+
+- This is a screenshot of the final result for mobile:
 
 ### Links
 
