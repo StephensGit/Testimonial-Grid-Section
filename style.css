@@ -140,13 +140,57 @@ p {
 }
 
 /* Desktop Design */
-@media screen and (min-width: 576px) {
-  body {
-    /* background-color: red; */
-  }
-
+@media screen and (min-width: 768px) {
   .grid-container {
     display: flex;
+    flex-direction: column;
+    max-width: 1200px;
+    margin: 0 auto;
+    justify-content: center;
+  }
+  .section-one,
+  .section-two,
+  .section-three,
+  .section-four {
+    width: 50%;
+  }
+
+  .section-five {
+    width: 100%;
+  }
+
+  .desktop-left {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .desktop-top-row,
+  .desktop-bottom-row {
+    display: flex;
+  }
+
+  .section-one,
+  .section-three {
+    margin-right: 20px;
+  }
+
+  .section-one,
+  .section-four {
+    flex-basis: 50%;
+  }
+
+  .section-five {
+    margin: 0;
+    flex-basis: 100%;
+  }
+}
+
+/* Desktop Design */
+@media screen and (min-width: 1200px) {
+  .grid-container {
+    /* flex-flow: wrap; */
+    display: flex;
+    flex-direction: row;
     max-width: 1440px;
     margin: 0 auto;
     justify-content: center;

@@ -20,7 +20,6 @@ This is a solution to the [Insure landing page challenge on Frontend Mentor](htt
 Users should be able to:
 
 - View the optimal layout for the site depending on their device's screen size
-- See hover states for all interactive elements on the page
 
 ### Screenshot
 
@@ -42,7 +41,3 @@ Users should be able to:
 - Website - [Stephen Moran](https://www.stephenmoran.ie)
 - Linkedin - [Stephen Moran](https://www.linkedin.com/in/stephen-moran-/)
 - Github - [StephensGit](https://github.com/StephensGit)
-
-### Continued development
-
-Will update this to outline areas I want to continue focusing on in future projects.
