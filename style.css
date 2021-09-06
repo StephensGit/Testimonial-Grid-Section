@@ -25,15 +25,9 @@ body {
   padding: 70px 20px;
 }
 
-section {
-  margin-bottom: 25px;
-}
-
 .container {
-  margin: 0 auto;
+  margin: 0 auto 25px auto;
   padding: 30px;
-  max-width: 100%;
-  width: 368px;
 }
 
 .section-one,
@@ -44,7 +38,7 @@ section {
   border-radius: 10px 10px 10px 10px;
 }
 
-.flex {
+.flex-column {
   display: flex;
   flex-direction: column;
 }
@@ -143,4 +137,56 @@ p {
 
 .section-five {
   background-color: var(--white);
+}
+
+/* Desktop Design */
+@media screen and (min-width: 576px) {
+  body {
+    /* background-color: red; */
+  }
+
+  .grid-container {
+    display: flex;
+    max-width: 1440px;
+    margin: 0 auto;
+    justify-content: center;
+  }
+
+  .desktop-left {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 75%;
+    margin-right: 20px;
+  }
+
+  .desktop-top-row,
+  .desktop-bottom-row {
+    display: flex;
+    flex-basis: 50%;
+  }
+
+  .section-one,
+  .section-four {
+    flex-basis: 65%;
+  }
+
+  .section-one,
+  .section-three {
+    margin-right: 20px;
+  }
+
+  .section-two,
+  .section-three {
+    flex-basis: 35%;
+  }
+
+  .section-three,
+  .section-four {
+    margin-bottom: 0;
+  }
+
+  .section-five {
+    margin: 0;
+    flex-basis: 25%;
+  }
 }
