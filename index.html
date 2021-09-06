@@ -3,24 +3,22 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- displays site properly based on user's device -->
 
     <title>Testimonials Grid Section</title>
-
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div class="flex-row-desktop">
-      <section class="img-holder section-one-desktop">
-        <div class="container section-one">
-          <div class="flex flex-desktop">
+    <div class="grid-container">
+      <div class="desktop-left">
+        <div class="desktop-top-row">
+          <div class="container section-one">
             <div class="flex-row">
               <img
                 class="section-one-img"
                 src="./images/image-daniel.jpg"
                 alt="avatar-daniel"
               />
-              <div class="flex">
+              <div class="flex-column">
                 <h4>Daniel Clifford</h4>
                 <h5>Verified Graduate</h5>
               </div>
@@ -40,20 +38,15 @@
               careers, working as a Software Engineer at a VR startup. ”
             </p>
           </div>
-        </div>
-      </section>
 
-      <section class="section-two-desktop">
-        <div class="container section-two">
-          <div class="flex">
+          <div class="container section-two">
             <div class="flex-row">
               <img
                 class="section-two-img"
                 src="./images/image-jonathan.jpg"
                 alt="avatar-jonathan"
               />
-
-              <div class="flex">
+              <div class="flex-column">
                 <h4>Jonathan Walters</h4>
                 <h5>Verified Graduate</h5>
               </div>
@@ -66,14 +59,12 @@
             </p>
           </div>
         </div>
-      </section>
 
-      <section class="section-three-desktop">
-        <div class="container section-three">
-          <div class="flex">
+        <div class="desktop-bottom-row">
+          <div class="container section-three">
             <div class="flex-row">
               <img src="./images/image-jeanette.jpg" alt="avatar-jeanette" />
-              <div class="flex">
+              <div class="flex-column">
                 <h4>Jeanette Harmon</h4>
                 <h5>Verified Graduate</h5>
               </div>
@@ -85,19 +76,15 @@
               ”
             </p>
           </div>
-        </div>
-      </section>
 
-      <section class="section-four-desktop">
-        <div class="container section-four">
-          <div class="flex">
+          <div class="container section-four">
             <div class="flex-row">
               <img
                 class="section-four-img"
                 src="./images/image-patrick.jpg"
                 alt="avatar-patrick"
               />
-              <div class="flex">
+              <div class="flex-column">
                 <h4>Patrick Abrams</h4>
                 <h5>Verified Graduate</h5>
               </div>
@@ -117,36 +104,31 @@
             </p>
           </div>
         </div>
-      </section>
+      </div>
 
-      <section class="section-five-desktop">
-        <div class="container section-five">
-          <div class="flex">
-            <div class="flex-row">
-              <img src="./images/image-kira.jpg" alt="avatr-ciara" />
-              <div class="flex">
-                <h4>Kira Whittle</h4>
-                <h5>Verified Graduate</h5>
-              </div>
-            </div>
-            <h2>Such a life-changing experience. Highly recommended!</h2>
-            <p>
-              “ Before joining the bootcamp, I’ve never written a line of code.
-              I needed some structure from professionals who can help me learn
-              programming step by step. I was encouraged to enroll by a former
-              student of theirs who can only say wonderful things about the
-              program. The entire curriculum and staff did not disappoint. They
-              were very hands-on and I never had to wait long for assistance.
-              The agile team project, in particular, was outstanding. It took my
-              learning to the next level in a way that no tutorial could ever
-              have. In fact, I’ve often referred to it during interviews as an
-              example of my developent experience. It certainly helped me land a
-              job as a full-stack developer after receiving multiple offers.
-              100% recommend! ”
-            </p>
+      <div class="container section-five">
+        <div class="flex-row">
+          <img src="./images/image-kira.jpg" alt="avatr-ciara" />
+          <div class="flex-column">
+            <h4>Kira Whittle</h4>
+            <h5>Verified Graduate</h5>
           </div>
         </div>
-      </section>
+        <h2>Such a life-changing experience. Highly recommended!</h2>
+        <p>
+          “ Before joining the bootcamp, I’ve never written a line of code. I
+          needed some structure from professionals who can help me learn
+          programming step by step. I was encouraged to enroll by a former
+          student of theirs who can only say wonderful things about the program.
+          The entire curriculum and staff did not disappoint. They were very
+          hands-on and I never had to wait long for assistance. The agile team
+          project, in particular, was outstanding. It took my learning to the
+          next level in a way that no tutorial could ever have. In fact, I’ve
+          often referred to it during interviews as an example of my developent
+          experience. It certainly helped me land a job as a full-stack
+          developer after receiving multiple offers. 100% recommend! ”
+        </p>
+      </div>
     </div>
   </body>
 </html>
