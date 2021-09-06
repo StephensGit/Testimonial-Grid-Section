@@ -24,6 +24,7 @@ Users should be able to:
 ### Screenshot
 
 - This is a screenshot of the final result for desktop:
+![Testimonials Grid Section - Desktop](https://user-images.githubusercontent.com/45046901/132238245-904f4356-73eb-4de9-836a-a0687898dd24.png)
 
 - This is a screenshot of the final result for mobile:
 
