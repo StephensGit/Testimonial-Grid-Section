@@ -41,6 +41,5 @@ Users should be able to:
 
 ## Author
 
-- Website - [Stephen Moran](https://www.stephenmoran.ie)
 - Linkedin - [Stephen Moran](https://www.linkedin.com/in/stephen-moran-/)
 - Github - [StephensGit](https://github.com/StephensGit)
